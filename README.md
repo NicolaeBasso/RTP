@@ -8,4 +8,4 @@
   - Connect the server by running `netcat localhost 4444`;
   - Subscribe to a __tweeter__ topic by executing `SUBSCRIBE tweeter`;
   ### In order to update images and rebuild containers
-  - docker-compose up -d --force-recreate --build
+  - `docker-compose up -d --force-recreate --build`
