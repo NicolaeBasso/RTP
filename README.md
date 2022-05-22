@@ -1,11 +1,23 @@
-  # Real Time Programming 
-  _Streaming Twitter sentiment score analyzer_
-  ## About
-  This application receives 2 streams of tweets from Twitter API. Every tweet is being analyzed by the sentiment score analyzer and tweet text in pair with its score is stored in database After that the tweet is being published to the client by the __tweeter__ topic.
+# EventsourceEx
 
-  ## Launch (docker)
-  - Run docker containers with `docker-compose up -d` in root project path;
-  - Connect the server by running `netcat localhost 4444`;
-  - Subscribe to a __tweeter__ topic by executing `SUBSCRIBE tweeter`;
-  ### In order to update images and rebuild containers
-  - `docker-compose up -d --force-recreate --build`
+An Elixir EventSource (Server-Sent Events) client
+
+[![EventsourceEx on Hex](https://img.shields.io/hexpm/v/eventsource_ex?style=flat-square)](https://hex.pm/packages/eventsource_ex)
+
+## Installation
+
+  Add eventsource_ex to your list of dependencies in `mix.exs`:
+
+        def deps do
+          [{:eventsource_ex, "~> x.x.x"}]
+        end
+
+## Usage
+
+    iex(1)> {:ok, pid} = EventsourceEx.new("https://url.com/stream", stream_to: self)
+    {:ok, #PID<0.150.0>}
+    iex(2)> flush
+    %EventsourceEx.Message{data: "1", event: "message", id: nil}
+    %EventsourceEx.Message{data: "2", event: "message", id: nil}
+    %EventsourceEx.Message{data: "3", event: "message", id: nil}
+    :ok
