@@ -8,7 +8,7 @@ defmodule EventsourceExTest do
   test "follows events" do
     EventsourceExTest.HTTPoisonMock
     |> expect(:get!, fn url, _headers, options ->
-      assert url == "https://a.test"
+      assert url == "https//localhost:4000"
       target = options[:stream_to]
 
       [
@@ -21,7 +21,7 @@ defmodule EventsourceExTest do
       |> Enum.map(&send(target, %{chunk: &1}))
     end)
 
-    EventsourceEx.new("https://a.test",
+    EventsourceEx.new("https//localhost:4000",
       stream_to: self(),
       adapter: EventsourceExTest.HTTPoisonMock
     )
