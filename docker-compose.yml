@@ -1,24 +1,41 @@
 version: "3.8"
 services:
-  mongodb:
-    image: mongo:latest
-    ports:
-    - 27017:27017
-    expose:
-    - '27017'
   twitter_api:
     image: alexburlacu/rtp-server:faf18x
+    container_name: twitter_api
     ports:
       - 4000:4000
     expose:
       - '4000'
-  rtp:
-    build:
-      context: .
+
+  db:
+    image: postgres:14.1-alpine
+    container_name: postgres
+    restart: always
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
     ports:
-      - 4444:4444
+      - 5432:5432
     expose:
-      - '4444'
-    depends_on:
-      - mongodb
-      - twitter_api
+      - '5432'
+    volumes: 
+      - db:/var/lib/postgresql/data
+      
+  # rtp:
+  #   container_name: rtp
+  #   build:
+  #     context: .
+  #   ports:
+  #     - 4444:4444
+  #   expose:
+  #     - '4444'
+  #   depends_on:
+  #     - twitter_api
+  #     - db
+  #   restart: always
+
+volumes:
+  db:
+    driver: local
