@@ -1,4 +1,4 @@
-defmodule SSE.Utils.EmotionParser do
+defmodule Rtp.Utils.EmotionParser do
   @moduledoc """
   utility module for processing emotion value strings into
   key-value data structure in Elixir

@@ -1,12 +1,12 @@
-defmodule STREAM_PROCESSOR.MixProject do
+defmodule Rtp.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :stream_processor,
+      app: :rtp,
       version: "0.1.0",
-      elixir: "~> 1.13",
-      start_permanent: Mix.env() == :dev,
+      elixir: "~> 1.13.4",
+      start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
   end
@@ -14,18 +14,19 @@ defmodule STREAM_PROCESSOR.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      mod: {SSE.App, []},
-      extra_applications: [:logger, :observer]
+      mod: {Rtp, []},
+      extra_applications: [:logger]
     ]
   end
 
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      # {:dep_from_hexpm, "~> 0.3.0"},
+      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
       {:httpoison, "~> 1.8"},
       {:poison, "~> 5.0"},
-      {:ecto_sql, "~> 3.7"},
-      {:postgrex, ">= 0.0.0"}
+      {:poolboy, "~> 1.5"}
     ]
   end
 end

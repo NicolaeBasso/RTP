@@ -1,10 +1,9 @@
-defmodule SSE.App do
+defmodule Rtp do
   use Application
 
   def start(_type, _args) do
     children = [
-      SSE.Supervisor.Main,
-      # SAS.Repo
+      Rtp.Super
     ]
 
     Supervisor.start_link(children, strategy: :one_for_one, type: :supervisor)
