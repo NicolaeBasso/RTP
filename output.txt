@@ -1,0 +1,293 @@
+data.message.tweet.entities.hashtags
+
+1
+%EventsourceEx.Message{
+  data: "{\"message\": {\"tweet\": {\"user\":{\"screen_name\":\"dzjr74\",\"follow_request_sent\":null,\"profile_banner_url\":\"https://pbs.twimg.com/profile_banners/234354859/1460318439\",\"time_zone\":\"Amsterdam\",\"profile_use_background_image\":true,\"profile_image_url_https\":\"https://pbs.twimg.com/profile_images/719253784820654081/9Nt3Vdqq_normal.jpg\",\"geo_enabled\":true,\"favourites_count\":2349,\"description\":\"Servicemonteur en E-inspecteur,wandelen, koken, (tuin)klussen.\\nSingle maar met Maatje\\nTe bescheiden maar zou wat meer moeten durven (niet mijn text)\\nte eerlijk\",\"default_profile_image\":false,\"profile_background_tile\":false,\"url\":null,\"notifications\":null,\"profile_background_color\":\"C0DEED\",\"name\":\"Dingeman\",\"created_at\":\"Wed Jan 05 13:11:29 +0000 2011\",\"profile_background_image_url\":\"http://abs.twimg.com/images/themes/theme1/bg.png\",\"contributors_enabled\":false,\"location\":\"Alkmaar The Netherlands\",\"listed_count\":19,\"profile_background_image_url_https\":\"https://abs.twimg.com/images/themes/theme1/bg.png\",\"lang\":\"nl\",\"is_translator\":false,\"profile_text_color\":\"333333\",\"statuses_count\":116471,\"profile_sidebar_border_color\":\"C0DEED\",\"utc_offset\":7200,\"verified\":false,\"profile_link_color\":\"3B94D9\",\"profile_image_url\":\"http://pbs.twimg.com/profile_images/719253784820654081/9Nt3Vdqq_normal.jpg\",\"id\":234354859,\"profile_sidebar_fill_color\":\"DDEEF6\",\"default_profile\":false,\"following\":null,\"followers_count\":272,\"friends_count\":510,\"id_str\":\"234354859\",\"protected\":false},\"truncated\":false,\"timestamp_ms\":\"1461007888663\",\"text\":\"@El_Tigra hoe is je hoofdpijn?\",\"source\":\"<a href=\\\"https://about.twitter.com/products/tweetdeck\\\" rel=\\\"nofollow\\\">TweetDeck</a>\",\"retweeted\":false,\"retweet_count\":0,\"place\":null,\"lang\":\"nl\",\"is_quote_status\":false,\"in_reply_to_user_id_str\":\"241477883\",\"in_reply_to_user_id\":241477883,\"in_reply_to_status_id_str\":\"722145406709325829\",\"in_reply_to_status_id\":722145406709325829,\"in_reply_to_screen_name\":\"El_Tigra\",\"id_str\":\"722145541908467713\",\"id\":722145541908467713,\"geo\":null,\"filter_level\":\"low\",\"favorited\":false,\"favorite_count\":0,\"entities\":{\"user_mentions\":[{\"screen_name\":\"El_Tigra\",\"name\":\"Angelique\",\"indices\":[0,9],\"id_str\":\"241477883\",\"id\":241477883}],\"urls\":[],\"symbols\":[],\"hashtags\":[]},\"created_at\":\"Mon Apr 18 19:31:28 +0000 2016\",\"coordinates\":null,\"contributors\":null}, \"unix_timestamp_100us\": 16689701890568}}",
+  dispatch_ts: ~U[2022-11-20 18:49:49.062188Z],
+  event: "message",
+  id: nil
+}
+:ok
+
+2
+%EventsourceEx.Message{                                                           
+  data: "{\"message\": {\"tweet\": {\"user\":{\"screen_name\":\"PP3__\",\"follow_request_sent\":null,\"profile_banner_url\":\"https://pbs.twimg.com/profile_banners/3290866201/1451261673\",\"time_zone\":\"Pacific Time (US & Canada)\",\"profile_use_background_image\":true,\"profile_image_url_https\":\"https://pbs.twimg.com/profile_images/682583884631011328/p8P78MHr_normal.jpg\",\"geo_enabled\":false,\"favourites_count\":333,\"description\":\"‏مهما بحثت عن أجواء الراحة والسگينة مهما إستنزفت من عبارات المواساة مهما سمعت گلاما حانيا .. يبقى القرآن الحديث الأعظم\",\"default_profile_image\":false,\"profile_background_tile\":false,\"url\":null,\"notifications\":null,\"profile_background_color\":\"C0DEED\",\"name\":\"ايمان ..1992م\",\"created_at\":\"Fri Jul 24 18:48:01 +0000 2015\",\"profile_background_image_url\":\"http://abs.twimg.com/images/themes/theme1/bg.png\",\"contributors_enabled\":false,\"location\":null,\"listed_count\":135,\"profile_background_image_url_https\":\"https://abs.twimg.com/images/themes/theme1/bg.png\",\"lang\":\"ar\",\"is_translator\":false,\"profile_text_color\":\"333333\",\"statuses_count\":756,\"profile_sidebar_border_color\":\"C0DEED\",\"utc_offset\":-25200,\"verified\":false,\"profile_link_color\":\"0084B4\",\"profile_image_url\":\"http://pbs.twimg.com/profile_images/682583884631011328/p8P78MHr_normal.jpg\",\"id\":3290866201,\"profile_sidebar_fill_color\":\"DDEEF6\",\"default_profile\":true,\"following\":null,\"followers_count\":122352,\"friends_count\":111637,\"id_str\":\"3290866201\",\"protected\":false},\"truncated\":false,\"timestamp_ms\":\"1461007953663\",\"text\":\"RT @E7tekam_group: ❌تعبتي من تلف شعرك؟\\n❌فشلت كل محاولات اصلاحه؟\\n❌شعرك قصير؟\\nالحل👇\\nالزيت الطبيعي👌\\n💯بشهادة جميع عملائنا\\nللطلب\\n0546023426\\nhttp…\",\"source\":\"<a href=\\\"http://twitter.com/download/iphone\\\" rel=\\\"nofollow\\\">Twitter for iPhone</a>\",\"retweeted_status\":{\"user\":{\"screen_name\":\"E7tekam_group\",\"follow_request_sent\":null,\"profile_banner_url\":\"https://pbs.twimg.com/profile_banners/2214384046/1460869478\",\"time_zone\":\"Riyadh\",\"profile_use_background_image\":false,\"profile_image_url_https\":\"https://pbs.twimg.com/profile_images/721564946862075904/tFizjN-V_normal.jpg\",\"geo_enabled\":true,\"favourites_count\":120,\"description\":\"‏‏مؤسسة خزينة الطبيعة\\nمؤسسة سعودية مسجلة\\nمستحضرات تجميل من نبت الطبيعه\\nزيت خام\\nشامبو\\nمن خلاصة النباتات\\nالمبيعات 0546023426\",\"default_profile_image\":false,\"profile_background_tile\":false,\"url\":null,\"notifications\":null,\"profile_background_color\":\"000000\",\"name\":\"كوني أجمل\",\"created_at\":\"Sun Dec 08 18:21:18 +0000 2013\",\"profile_background_image_url\":\"http://abs.twimg.com/images/themes/theme1/bg.png\",\"contributors_enabled\":false,\"location\":\"Kingdom of Saudi Arabia\",\"listed_count\":28,\"profile_background_image_url_https\":\"https://abs.twimg.com/images/themes/theme1/bg.png\",\"lang\":\"ar\",\"is_translator\":false,\"profile_text_color\":\"000000\",\"statuses_count\":37335,\"profile_sidebar_border_color\":\"000000\",\"utc_offset\":10800,\"verified\":false,\"profile_link_color\":\"3B94D9\",\"profile_image_url\":\"http://pbs.twimg.com/profile_images/721564946862075904/tFizjN-V_normal.jpg\",\"id\":2214384046,\"profile_sidebar_fill_color\":\"000000\",\"default_profile\":false,\"following\":null,\"followers_count\":85511,\"friends_count\":13625,\"id_str\":\"2214384046\",\"protected\":false},\"truncated\":false,\"text\":\"❌تعبتي من تلف شعرك؟\\n❌فشلت كل محاولات اصلاحه؟\\n❌شعرك قصير؟\\nالحل👇\\nالزيت الطبيعي👌\\n💯بشهادة جميع عملائنا\\nللطلب\\n0546023426\\nhttps://t.co/JnJW7ZUHtK\",\"source\":\"<a href=\\\"http://twitter.com/download/android\\\" rel=\\\"nofollow\\\">Twitter for Android</a>\",\"retweeted\":false,\"retweet_count\":202,\"possibly_sensitive\":false,\"place\":null,\"lang\":\"ar\",\"is_quote_status\":false,\"in_reply_to_user_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_status_id\":null,\"in_reply_to_screen_name\":null,\"id_str\":\"721938046032207872\",\"id\":721938046032207872,\"geo\":null,\"filter_level\":\"low\",\"favorited\":false,\"favorite_count\":13,\"extended_entities\":{\"media\":[{\"url\":\"https://t.co/JnJW7ZUHtK\",\"type\":\"photo\",\"source_user_id_str\":\"2214384046\",\"source_user_id\":2214384046,\"source_status_id_str\":\"721645057254821890\",\"source_status_id\":721645057254821890,\"sizes\":{\"thumb\":{\"w\":150,\"resize\":\"cr" <> ...,
+  dispatch_ts: ~U[2022-11-20 18:50:55.239993Z],
+  event: "message",
+  id: nil
+}
+:ok 
+
+{
+	"message": {
+		"tweet": {
+			"user": {
+				"screen_name": "relaxaju",
+				"follow_request_sent": null,
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/2256885092/1460609436",
+				"time_zone": "Mid-Atlantic",
+				"profile_use_background_image": true,
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/721402748013555713/P7Qmwtbt_normal.jpg",
+				"geo_enabled": true,
+				"favourites_count": 3374,
+				"description": "Aí você sorriu, cabô minha marra.",
+				"default_profile_image": false,
+				"profile_background_tile": true,
+				"url": null,
+				"notifications": null,
+				"profile_background_color": "C0DEED",
+				"name": "Envolvidão ♎",
+				"created_at": "Sat Dec 21 20:04:49 +0000 2013",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000176623994/XQVp5PbM.jpeg",
+				"contributors_enabled": false,
+				"location": "Voando por ai.. ",
+				"listed_count": 0,
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000176623994/XQVp5PbM.jpeg",
+				"lang": "pt",
+				"is_translator": false,
+				"profile_text_color": "333333",
+				"statuses_count": 7034,
+				"profile_sidebar_border_color": "FFFFFF",
+				"utc_offset": -7200,
+				"verified": false,
+				"profile_link_color": "09ED2B",
+				"profile_image_url": "http://pbs.twimg.com/profile_images/721402748013555713/P7Qmwtbt_normal.jpg",
+				"id": 2256885092,
+				"profile_sidebar_fill_color": "DDEEF6",
+				"default_profile": false,
+				"following": null,
+				"followers_count": 265,
+				"friends_count": 208,
+				"id_str": "2256885092",
+				"protected": false
+			},
+			"truncated": false,
+			"timestamp_ms": "1461007970661",
+			"text": "RT @ciume: Olhe para o horizonte e veja o tamanho do meu foda-se.",
+			"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+			"retweeted_status": {
+				"user": {
+					"screen_name": "ciume",
+					"follow_request_sent": null,
+					"profile_banner_url": "https://pbs.twimg.com/profile_banners/206840196/1448972076",
+					"time_zone": "Brasilia",
+					"profile_use_background_image": true,
+					"profile_image_url_https": "https://pbs.twimg.com/profile_images/672043071375306752/G1ybrkpV_normal.jpg",
+					"geo_enabled": true,
+					"favourites_count": 51,
+					"description": "Você sempre vai tentar se encaixar em tudo que lê... Contato: publicidades@outlook.com.br",
+					"default_profile_image": false,
+					"profile_background_tile": false,
+					"url": "http://www.instagram.com/cenasmarcantes",
+					"notifications": null,
+					"profile_background_color": "FFFFFF",
+					"name": "Ciúme",
+					"created_at": "Sat Oct 23 21:20:26 +0000 2010",
+					"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/438212159676223488/X540aO9N.png",
+					"contributors_enabled": false,
+					"location": null,
+					"listed_count": 2198,
+					"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/438212159676223488/X540aO9N.png",
+					"lang": "pt",
+					"is_translator": false,
+					"profile_text_color": "000000",
+					"statuses_count": 17608,
+					"profile_sidebar_border_color": "FFFFFF",
+					"utc_offset": -10800,
+					"verified": false,
+					"profile_link_color": "525150",
+					"profile_image_url": "http://pbs.twimg.com/profile_images/672043071375306752/G1ybrkpV_normal.jpg",
+					"id": 206840196,
+					"profile_sidebar_fill_color": "FFFFFF",
+					"default_profile": false,
+					"following": null,
+					"followers_count": 830592,
+					"friends_count": 76,
+					"id_str": "206840196",
+					"protected": false
+				},
+				"truncated": false,
+				"text": "Olhe para o horizonte e veja o tamanho do meu foda-se.",
+				"source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+				"retweeted": false,
+				"retweet_count": 40,
+				"place": null,
+				"lang": "pt",
+				"is_quote_status": false,
+				"in_reply_to_user_id_str": null,
+				"in_reply_to_user_id": null,
+				"in_reply_to_status_id_str": null,
+				"in_reply_to_status_id": null,
+				"in_reply_to_screen_name": null,
+				"id_str": "722130193444306944",
+				"id": 722130193444306944,
+				"geo": null,
+				"filter_level": "low",
+				"favorited": false,
+				"favorite_count": 21,
+				"entities": {
+					"user_mentions": [],
+					"urls": [],
+					"symbols": [],
+					"hashtags": []
+				},
+				"created_at": "Mon Apr 18 18:30:29 +0000 2016",
+				"coordinates": null,
+				"contributors": null
+			},
+			"retweeted": false,
+			"retweet_count": 0,
+			"place": null,
+			"lang": "pt",
+			"is_quote_status": false,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_status_id": null,
+			"in_reply_to_screen_name": null,
+			"id_str": "722145885833060353",
+			"id": 722145885833060353,
+			"geo": null,
+			"filter_level": "low",
+			"favorited": false,
+			"favorite_count": 0,
+			"entities": {
+				"user_mentions": [
+					{
+						"screen_name": "ciume",
+						"name": "Ciúme",
+						"indices": [
+							3,
+							9
+						],
+						"id_str": "206840196",
+						"id": 206840196
+					}
+				],
+				"urls": [],
+				"symbols": [],
+				"hashtags": []
+			},
+			"created_at": "Mon Apr 18 19:32:50 +0000 2016",
+			"coordinates": null,
+			"contributors": null
+		},
+		"unix_timestamp_100us": 16691516813969
+	}
+}
+
+
+
+----
+
+
+{
+  "message": {
+    "tweet": {
+      "user": {
+        "screen_name": "bez825",
+        "follow_request_sent": null,
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/29978395/1423156806",
+        "time_zone": "Eastern Time (US & Canada)",
+        "profile_use_background_image": true,
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/708102217912487937/tdkyGvBn_normal.jpg",
+        "geo_enabled": true,
+        "favourites_count": 28,
+        "description": "Family man, avid golfer, Ravens/Caps/Orioles/Chelsea fan from Mount Airy, MD.",
+        "default_profile_image": false,
+        "profile_background_tile": false,
+        "url": null,
+        "notifications": null,
+        "profile_background_color": "FFFFFF",
+        "name": "Bryan Becker",
+        "created_at": "Thu Apr 09 13:01:35 +0000 2009",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/503741910/freetwitter-5.br.jpg",
+        "contributors_enabled": false,
+        "location": "Mount Airy, MD",
+        "listed_count": 1,
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/503741910/freetwitter-5.br.jpg",
+        "lang": "en",
+        "is_translator": false,
+        "profile_text_color": "000000",
+        "statuses_count": 389,
+        "profile_sidebar_border_color": "2345B3",
+        "utc_offset": -14400,
+        "verified": false,
+        "profile_link_color": "0000FF",
+        "profile_image_url": "http://pbs.twimg.com/profile_images/708102217912487937/tdkyGvBn_normal.jpg",
+        "id": 29978395,
+        "profile_sidebar_fill_color": "4EB9F4",
+        "default_profile": false,
+        "following": null,
+        "followers_count": 40,
+        "friends_count": 206,
+        "id_str": "29978395",
+        "protected": false
+      },
+      "truncated": false,
+      "timestamp_ms": "1461007827664",
+      "text": "#capspride #sweeps #rockthered https://t.co/h0LuuEGVmc",
+      "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+      "retweeted": false,
+      "retweet_count": 0,
+      "possibly_sensitive": false,
+      "place": null,
+      "lang": "und",
+      "is_quote_status": false,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_status_id": null,
+      "in_reply_to_screen_name": null,
+      "id_str": "722145286060122114",
+      "id": 722145286060122100,
+      "geo": null,
+      "filter_level": "low",
+      "favorited": false,
+      "favorite_count": 0,
+      "entities": {
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/h0LuuEGVmc",
+            "indices": [
+              31,
+              54
+            ],
+            "expanded_url": "https://www.instagram.com/p/BEWnhOoptACln6mac6nPc3ADz88Jyjg5Mn8LA80/",
+            "display_url": "instagram.com/p/BEWnhOoptACl…"
+          }
+        ],
+        "symbols": [],
+        "hashtags": [
+          {
+            "text": "capspride",
+            "indices": [
+              0,
+              10
+            ]
+          },
+          {
+            "text": "sweeps",
+            "indices": [
+              11,
+              18
+            ]
+          },
+          {
+            "text": "rockthered",
+            "indices": [
+              19,
+              30
+            ]
+          }
+        ]
+      },
+      "created_at": "Mon Apr 18 19:30:27 +0000 2016",
+      "coordinates": null,
+      "contributors": null
+    },
+    "unix_timestamp_100us": 16691522673938
+  }
+}
+

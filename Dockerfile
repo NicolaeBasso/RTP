@@ -1,4 +1,4 @@
-FROM elixir:1.14
+FROM elixir:1.13
 WORKDIR /app
 COPY . .
 RUN mix local.rebar --force && \
