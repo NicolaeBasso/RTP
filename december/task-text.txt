@@ -1,0 +1,57 @@
+Every Message Broker needs to be able to do 3 tasks:
+
+1. To receive Subscribe messages
+2. To receive Publish messages
+3. To Send messages that are published to those who subscribed
+
+Task 1:
+Create an actor. Whenever a Subscribe message is received, save the senders address into a list.
+
+Task 2:
+Continue the previous task. Each time a Publish message is received, 
+echo the message to the addresses contained in the subscribe list.
+
+Task 3:
+Start your actor and 3 command prompts. 
+Subscribe 1 of them to the actor. Use another prompt to Publish some messages.
+Now, Subscribe the last prompt. Use the publisher to Publish a couple more messages. 
+
+====
+
+In Elixir programming language, create a message brokerage solution, 
+where producers (3) publish messages to brokers (2), and broker subscribers (3) receive messages from broker.
+
+1) Message broker must perform all of the following tasks:
+
+1. To receive Subscribe messages (Create an actor, whenever a Subscribe message is received, save the senders address into a list);
+
+2. To receive Publish messages (Continue the previous task. Each time a Publish message is received, 
+echo the message to the addresses contained in the subscribe list);
+
+3. To Send messages that are published to those who subscribed 
+(Start your actor and 3 command prompts,
+Subscribe 1 of them to the actor, Use another prompt to Publish some messages,
+Now, Subscribe the last promp, Use the publisher to Publish a couple more messages);
+
+
+2) Message subscribers must perform all of the following tasks:
+
+1. Each time the subscriber actor receives a message, it should print it out 
+(Open another execution environment / command prompt and send a message to the actor);
+
+2. Store messages it receives into a list and print out the list every time it receives an actor;
+
+3. Echo messages it receives back to the sender;
+
+
+3) Message publishers must perform all of the following tasks:
+
+1. Is a Publisher actor that publishes messages to Message Broker;
+
+
+Parties interaction schema:
+Publishers (publish messages to brokers) ->
+Message Brokers (stream messages from publishers to message broker subscribers) -> 
+Subscribers (receive streamed messages from message brokers and print them to console)
+
+Provide all the steps to run solution provided in detail, with explanation. 

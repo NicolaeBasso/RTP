@@ -1,0 +1,42 @@
+https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html
+
+mix compile
+iex -S mix
+
+===
+
+# Start the Message Broker
+{:ok, broker} = Broker.start_link
+{:ok, broker} = Message.Broker.start_link
+
+# Start the Subscriber
+{:ok, subscriber1} = Subscriber.start_link
+{:ok, subscriber2} = Subscriber.start_link
+{:ok, subscriber3} = Subscriber.start_link
+
+# Subscribe the Subscribers to the Message Broker
+send(broker, {:subscribe, subscriber1})
+send(broker, {:subscribe, subscriber2})
+send(broker, {:subscribe, subscriber3})
+
+# Start the Publisher
+publisher = Publisher
+
+# Publish some messages
+publisher.publish(broker, "Hello World!")
+publisher.publish(broker, "Goodbye World!")
+
+===
+
+broker = Message.Broker.start_link
+> #PID<0.151.0>
+
+subscriber1 = Message.Subscriber.start_link(broker)
+> #PID<0.305.0>
+subscriber2 = Message.Subscriber.start_link(broker)
+> #PID<0.307.0>
+subscriber3 = Message.Subscriber.start_link(broker)
+> #PID<0.309.0>
+
+send broker, {:publish, "Hello, world!"}
+> {:publish, "Hello, world!"}
